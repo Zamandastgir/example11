@@ -1,0 +1,2879 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.main{
+	position: relative;
+	height: 650px;
+	width: 100%;
+	background-color: cyan;
+	overflow: hidden;
+}
+.main .header{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	z-index: 5;
+	background-color: cyan;
+	border-bottom: 1px solid black;
+}
+.main .header img{
+	top: 11px;
+	height: 50px;
+	width: 50px;
+	left: 10px;
+}
+.main .header h1{
+	position: absolute;
+	top: 17px;
+	left: 70px;
+	color: black;
+	font-size: 42px;
+}
+.main ul{
+	list-style: none;
+	position: absolute;
+	right: 50px;
+	color: black;
+	top: 30px;
+	cursor: pointer;
+}
+.main ul li{
+	float: left;
+	padding:0px 20px;
+	color: black;
+}
+.main ul li:hover{
+	color: green;
+	font-size: 18px;
+}
+.main a{
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+.main a:hover{
+	color: green;
+}
+.main img{
+	position: absolute;
+	height: 450px;
+	width: 400px;
+	top: 100px;
+	left: 80px;
+}
+.main h1{
+	position: absolute;
+	top: 150px;
+	left: 600px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.main span{
+	font-size: 52px;
+	font-weight: bold;
+}
+.main .line{
+	position: absolute;
+	background-color: white;
+	height: 2px;
+	width: 100px;
+	top: 240px;
+	left: 600px;
+}
+.main p{
+	position: absolute;
+	top: 250px;
+	left: 600px;
+	color: white;
+	line-height: 2rem;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 22px;
+}
+.main button{
+	position: absolute;
+	font-size: 18px;
+	background: black;
+	color: white;
+	border-radius: 30px;
+	padding: 10px 20px;
+	margin: 1rem;
+	margin-left: 600px;
+	margin-top: 420px;
+	z-index: 1;
+	overflow: hidden;
+	outline: none;
+}
+.main button:hover{
+	color: #3498db;
+}
+.main .one{
+	position: absolute;
+	height: 100px;
+	width: 420px;
+	background: darkgreen;
+	top: 550px;
+}
+.main .two{
+	position: absolute;
+	height: 100px;
+	width: 430px;
+	background: green;
+	top: 550px;
+	left: 420px;
+}
+.main .three{
+	position: absolute;
+	height: 100px;
+	width: 430px;
+	background:lightgreen;
+	top: 550px;
+	left: 850px;
+}
+.main .one img{
+	position: absolute;
+	top: 10px;
+	left: 150px;
+	height: 40px;
+	width: 40px;
+}
+.main .two img{
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	height: 40px;
+	width: 40px;
+}
+.main .three img{
+	position: absolute;
+	top: 10px;
+	left: 180px;
+	height: 40px;
+	width: 40px;
+}
+.main .one h3{
+	position: absolute;
+	font-size: 20px;
+	top: 50px;
+	left: 60px;
+	color: white;
+	font-family: sans-serif;
+}
+.main .one h3 span{
+	font-size: 26px;
+	font-weight: bold;
+}
+.main .two h3{
+	position: absolute;
+	font-size: 20px;
+	top: 50px;
+	left: 80px;
+	color: white;
+	font-family: sans-serif;
+}
+.main .two h3 span{
+	font-size: 28px;
+	font-weight: bold;
+}
+.main .three h3{
+	position: absolute;
+	font-size: 20px;
+	top: 50px;
+	left: 100px;
+	color: white;
+	font-family: sans-serif;
+}
+.main .three h3 span{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+
+
+
+#about{
+	position: relative;
+	height: 500px;
+	width: 100%;
+	background: white;
+	border-bottom: 0.5px solid black;
+}
+#about h1{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.line1{
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+#about p{
+	position: absolute;
+	top: 120px;
+	left: 50px;
+	color: black;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+#about h2{
+	position: absolute;
+	top: 180px;
+	left: 50px;
+	color: black;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+#about .one{
+	position: absolute;
+	width: 250px;
+	top: 250px;
+	height: 100px;
+	left: 50px;
+}
+#about .one img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about h4{
+	position: absolute;
+	top: 60px;
+	left: 5px;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+#about h4 span{
+	color: cyan;
+	font-size: 20px;
+}
+#about .two{
+	position: absolute;
+	width: 250px;
+	top: 250px;
+	left: 450px;
+}
+#about .two img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about .three{
+	position: absolute;
+	width: 180px;
+	top: 250px;
+	left: 850px;
+}
+#about .three img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about .four{
+	position: absolute;
+	width: 250px;
+	top: 400px;
+	left: 50px;
+}
+#about .four img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about .five{
+	position: absolute;
+	width: 180px;
+	top: 400px;
+	left: 450px;
+}
+#about .five img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about .six{
+	position: absolute;
+	width: 250px;
+	top: 400px;
+	left: 850px;
+}
+#about .six img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+
+
+
+
+
+#services .container{
+	position: relative;
+	height: 500px;
+	width: 100%;
+	background: white;
+	border-bottom: 0.1px solid black;
+}
+.container h1{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.line2{
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+#one{
+	position: absolute;
+	height: 150px;
+	width: 580px;
+	top: 120px;
+	left: 50px;
+}
+.container h3{
+	color: cyan;
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	top: 70px;
+}
+.container p{
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	top: 110px;
+}
+#two{
+	position: absolute;
+	height: 150px;
+	width: 580px;
+	top: 120px;
+	left: 650px;
+}
+#three{
+	position: absolute;
+	height: 150px;
+	width: 580px;
+	top: 300px;
+	left: 50px;
+}
+#four{
+	position: absolute;
+	height: 150px;
+	width: 580px;
+	top: 300px;
+	left: 650px;
+}
+
+
+
+
+#portfolio .wrapper{
+	position: relative;
+	height: 500px;
+	width: 100%;
+	background: white;
+	border-bottom: 0.1px solid black;
+}
+.wrapper h2{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.line3{
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+.wrapper .img{
+	position: absolute;
+	height: 300px;
+	width: 500px;
+	top: 130px;
+	left: 50px;
+}
+.wrapper p{
+	position: absolute;
+	left: 650px;
+	top: 130px;
+	line-height: 1.5rem;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+.wrapper h3{
+	position: absolute;
+	top: 280px;
+	left: 650px;
+	font-size: 19px;
+	font-family: sans-serif;
+}
+.wrapper .a{
+	position: absolute;
+	width: 250px;
+	top: 350px;
+	left: 650px;
+}
+.wrapper .a img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+.wrapper h4{
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 18px;
+	top: 70px;
+	left: 1px;
+}
+.wrapper span{
+	color: cyan;
+	font-size: 20px;
+}
+.wrapper .b{
+	position: absolute;
+	width: 250px;
+	top: 350px;
+	left: 950px;
+}
+.wrapper .b img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+
+
+
+
+
+#testimonials .wrap{
+	position: relative;
+	height: 400px;
+	width: 100%;
+
+}
+.wrap img{
+	position: absolute;
+	height: 400px;
+	width: 100%;
+	opacity: 0.3;
+}
+.wrap h2{
+	position: absolute;
+	top: 50px;
+	left: 550px;
+	color: black;
+	font-size: 32px;
+	font-family: sans-serif;
+}
+.line4{
+	position: absolute;
+	top: 90px;
+	left: 550px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+.wrap p{
+	text-align: center;
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top: 120px;
+	line-height: 1.5rem;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.wrap small{
+	padding-left: 600px;
+	line-height: 3rem;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+
+
+#blog .mian{
+	position: relative;
+	height: 500px;
+	width: 100%;
+
+}
+.mian h2{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	color: black;
+	font-size: 32px;
+	font-family: sans-serif;
+}
+.line5{
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+.img1 img{
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	height: 300px;
+	width: 350px;
+	cursor: pointer;
+}
+.img1 h3{
+	position: absolute;
+	top: 410px;
+	left: 50px;
+	border: 1px solid grey;
+	background: grey;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img1 p{
+	position: absolute;
+	top: 450px;
+	left: 50px;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img2 img{
+	position: absolute;
+	top: 100px;
+	left: 450px;
+	height: 300px;
+	width: 350px;
+	cursor: pointer;
+}
+.img2 h3{
+	position: absolute;
+	top: 410px;
+	left: 450px;
+	border: 1px solid grey;
+	background: grey;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img2 p{
+	position: absolute;
+	top: 450px;
+	left: 450px;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img3 img{
+	position: absolute;
+	top: 100px;
+	left: 850px;
+	height: 300px;
+	width: 350px;
+	cursor: pointer;
+}
+.img3 h3{
+	position: absolute;
+	top: 410px;
+	left: 850px;
+	border: 1px solid grey;
+	background: grey;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img3 p{
+	position: absolute;
+	top: 450px;
+	left: 850px;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#blog .inner{
+	position: relative;
+	height: 150px;
+	width: 100%;
+	background: darkgreen;
+}
+.inner h2{
+	position: absolute;
+	top: 60px;
+	left: 150px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+button{
+	position: absolute;
+	font-size: 18px;
+	background: black;
+	color: white;
+	border-radius: 30px;
+	padding: 10px 20px;
+	margin: 1rem;
+	margin-left: 650px;
+	margin-top: 50px;
+	z-index: 1;
+	overflow: hidden;
+	outline: none;
+}
+button:hover{
+	color: #3498db;
+}
+
+
+#contact{
+	position: relative;
+	height: 600px;
+	width: 100%;
+}
+.name h2{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	color: black;
+	font-size: 32px;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+.line6{
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	height: 3px;
+	width: 40px;
+	background: green;
+}
+.location{
+	position: absolute;
+	height: 150px;
+	width: 300px;
+	top: 100px;
+	left: 50px;
+}
+.location img{
+	position: absolute;
+	height: 70px;
+	width: 70px;
+}
+.location h3{
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	font-size: 32px;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.location h3 span{
+	color: cyan;
+}
+.location p{
+	position: absolute;
+	left: 20px;
+	top: 80px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: normal;
+	opacity: 0.7;
+}
+
+.contact{
+	position: absolute;
+	height: 150px;
+	width: 300px;
+	top: 100px;
+	left:450px;
+}
+.contact img{
+	position: absolute;
+	height: 70px;
+	width: 70px;
+}
+.contact h3{
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	font-size: 28px;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.contact h3 span{
+	color: cyan;
+}
+.contact p{
+	position: absolute;
+	left: 20px;
+	top: 80px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: normal;
+	opacity: 0.7;
+}
+
+
+.email{
+	position: absolute;
+	height: 150px;
+	width: 300px;
+	top: 100px;
+	left:850px;
+}
+.email img{
+	position: absolute;
+	height: 70px;
+	width: 70px;
+}
+.email h3{
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	font-size: 28px;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.email h3 span{
+	color: cyan;
+}
+.email p{
+	position: absolute;
+	left: 20px;
+	top: 80px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: normal;
+	opacity: 0.7;
+}
+
+h4{
+	position: absolute;
+	left: 50px;
+	top: 300px;
+	font-size: 28px;
+	font-family: sans-serif;
+	font-weight: normal;
+	opacity: 0.7;
+}
+h4 span{
+	color: cyan;
+}
+
+.name form{
+	position: absolute;
+	top: 350px;
+	left: 50px;
+}
+.name input[type="Name"]{
+	position: absolute;
+	padding: 4px;
+	height: 40px;
+	width: 500px;
+}
+.name input[type="Email"]{
+	position: absolute;
+	top: 70px;
+	padding: 4px;
+	height: 40px;
+	width: 500px;
+}
+.name input[type="Phone Number"]{
+	position: absolute;
+	top: 140px;
+	padding: 4px;
+	height: 40px;
+	width: 500px;
+}
+.name textarea[type="comment"]{
+	position: absolute;
+	top: 0px;
+	left: 550px;
+	padding: 4px;
+	height: 110px;
+	width: 500px;
+}
+.button_1{
+	height: 50px;
+	width: 100px;
+	top: 80px;
+	left: -100px;
+	border-radius: 0;
+	background: orange;
+	color: white;
+}
+
+
+.footer{
+	position: relative;
+	height: 80px;
+	width: 100%;
+	background: black;
+}
+.footer .tooltip1{
+	position: absolute;
+	text-decoration: none;
+	left: 15%;
+	top:25px;
+}
+.tooltip2{
+	position: absolute;
+	text-decoration: none;
+	left: 20%;
+	top:25px;
+}
+.tooltip3{
+	position: absolute;
+	text-decoration: none;
+	left: 25%;
+	top:25px;
+}
+.tooltip4{
+	position: absolute;
+	text-decoration: none;
+	left: 30%;
+	top:25px;
+}
+.tooltip5{
+	position: absolute;
+	text-decoration: none;
+	left: 35%;
+	top:25px;
+}
+.tip{
+	display: block;
+	white-space: nowrap;
+	position: absolute;
+	z-index: 1;
+	left: 15%;
+	bottom: -200%;
+	padding: 1em;
+	margin-left: 0;
+	margin-top: 0.5rem;
+	font-size: 0.6em;
+	font-weight: normal;
+	background: #34495e;
+	border-radius: 1em;
+	color: #fff;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.35s;
+}
+.tip::before{
+	content: '';
+	border-style: solid;
+	border-width: 0 0.5rem 0.625rem 0.5rem;
+	border-color: transparent transparent #34495e transparent;
+	position: absolute;
+	right: 77%;
+	top: -8px;
+	bottom: calc(50%-0.5rem);
+	width: 0;
+	height: 0;
+}
+.tooltip1:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+.tooltip2:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+.tooltip3:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+.tooltip4:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	color: white;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+.tooltip5:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+
+
+
+
+											@media(max-width: 786px){
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+.main{
+	position: relative;
+	height: 650px;
+	width: 100%;
+	background-color: cyan;
+	overflow: hidden;
+}
+.main .header{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	z-index: 5;
+	background-color: cyan;
+	border-bottom: 1px solid black;
+}
+.main .header img{
+	top: 18px;
+	height: 40px;
+	width: 40px;
+	left: 10px;
+}
+.main .header h1{
+	position: absolute;
+	top: 17px;
+	left: 60px;
+	color: black;
+	font-size: 42px;
+}
+.main ul{
+	list-style: none;
+	position: absolute;
+	right: 0px;
+	color: black;
+	top: 30px;
+	cursor: pointer;
+}
+.main ul li{
+	float: left;
+	padding:0px 10px;
+	color: black;
+}
+.main ul li:hover{
+	color: green;
+	font-size: 18px;
+}
+.main a{
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+.main a:hover{
+	color: green;
+}
+.main img{
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	top: 100px;
+	left: 10px;
+}
+.main h1{
+	position: absolute;
+	top: 120px;
+	left: 350px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.main span{
+	font-size: 42px;
+	font-weight: bold;
+}
+.main .line{
+	position: absolute;
+	background-color: white;
+	height: 2px;
+	width: 100px;
+	top: 168px;
+	left: 350px;
+}
+.main p{
+	position: absolute;
+	top: 250px;
+	left: 350px;
+	color: white;
+	line-height: 1.5rem;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+}
+.main button{
+	position: absolute;
+	font-size: 18px;
+	background: black;
+	color: white;
+	border-radius: 30px;
+	padding: 10px 20px;
+	margin: 1rem;
+	margin-left: 400px;
+	margin-top: 420px;
+	z-index: 1;
+	overflow: hidden;
+	outline: none;
+	cursor: pointer;
+}
+.main button:hover{
+	color: #3498db;
+}
+.main .one{
+	position: absolute;
+	height: 100px;
+	width: 34%;
+	background: darkgreen;
+	top: 550px;
+}
+.main .two{
+	position: absolute;
+	height: 100px;
+	width: 33%;
+	background: green;
+	top: 550px;
+	left: 34%;
+}
+.main .three{
+	position: absolute;
+	height: 100px;
+	width: 33%;
+	background:lightgreen;
+	top: 550px;
+	left: 67%;
+}
+.main .one img{
+	position: absolute;
+	top: 10px;
+	left: 110px;
+	height: 40px;
+	width: 40px;
+}
+.main .two img{
+	position: absolute;
+	top: 10px;
+	left: 110px;
+	height: 40px;
+	width: 40px;
+}
+.main .three img{
+	position: absolute;
+	top: 10px;
+	left: 110px;
+	height: 40px;
+	width: 40px;
+}
+.main .one h3{
+	position: absolute;
+	font-size: 18px;
+	top: 60px;
+	left: 10px;
+	color: white;
+	font-family: sans-serif;
+}
+.main .one h3 span{
+	font-size: 24px;
+	font-weight: bold;
+}
+.main .two h3{
+	position: absolute;
+	font-size: 18px;
+	top: 60px;
+	left: 10px;
+	color: white;
+	font-family: sans-serif;
+}
+.main .two h3 span{
+	font-size: 22px;
+	font-weight: bold;
+}
+.main .three h3{
+	position: absolute;
+	font-size: 18px;
+	top: 60px;
+	left: 30px;
+	color: white;
+	font-family: sans-serif;
+}
+.main .three h3 span{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+
+
+#about{
+	position: relative;
+	height: 500px;
+	width: 100%;
+	background: white;
+	border-bottom: 0.5px solid black;
+}
+#about h1{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.line1{
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+#about p{
+	position: absolute;
+	top: 120px;
+	left: 50px;
+	color: black;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+#about h2{
+	position: absolute;
+	top: 210px;
+	left: 50px;
+	color: black;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+#about .one{
+	position: absolute;
+	width: 25%;
+	top: 250px;
+	height: 100px;
+	left: 50px;
+}
+#about .one img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 25%;
+	padding: 5px;
+}
+#about h4{
+	position: absolute;
+	top: 65px;
+	left: 0px;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+#about h4 span{
+	color: cyan;
+	font-size: 20px;
+}
+#about .two{
+	position: absolute;
+	width: 25%;
+	height: 100px;
+	top: 250px;
+	left: 38%;
+}
+#about .two img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about .three{
+	position: absolute;
+	width: 25%;
+	height: 100px;
+	top: 250px;
+	left: 70%;
+}
+#about .three img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about .four{
+	position: absolute;
+	width: 25%;
+	height: 100px;
+	top: 380px;
+	left: 50px;
+}
+#about .four img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about .five{
+	position: absolute;
+	width: 25%;
+	height: 100px;
+	top: 380px;
+	left: 38%;
+}
+#about .five img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about .six{
+	position: absolute;
+	width: 25%;
+	height: 100px;
+	top: 380px;
+	left: 70%;
+}
+#about .six img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+
+
+
+
+
+#services .container{
+	position: relative;
+	height: 500px;
+	width: 100%;
+	background: white;
+	border-bottom: 0.1px solid black;
+}
+.container h1{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.line2{
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+#one{
+	position: absolute;
+	height: 150px;
+	width: 35%;
+	top: 120px;
+	left: 50px;
+}
+.container h3{
+	color: cyan;
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	top: 70px;
+}
+.container p{
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	top: 100px;
+}
+#two{
+	position: absolute;
+	height: 150px;
+	width: 35%;
+	top: 120px;
+	left: 55%;
+}
+#three{
+	position: absolute;
+	height: 150px;
+	width: 35%;
+	top: 300px;
+	left: 50px;
+}
+#four{
+	position: absolute;
+	height: 150px;
+	width: 35%;
+	top: 300px;
+	left: 55%;
+}
+
+
+
+
+#portfolio .wrapper{
+	position: relative;
+	height: 500px;
+	width: 100%;
+	background: white;
+	border-bottom: 0.1px solid black;
+}
+.wrapper h2{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.line3{
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+.wrapper .img{
+	position: absolute;
+	height: 300px;
+	width: 350px;
+	top: 130px;
+	left: 50px;
+}
+.wrapper p{
+	position: absolute;
+	left: 56%;
+	top: 130px;
+	line-height: 1.5rem;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.wrapper h3{
+	position: absolute;
+	top: 330px;
+	left: 56%;
+	font-size: 19px;
+	font-family: sans-serif;
+}
+.wrapper .a{
+	position: absolute;
+	width: 25%;
+	top: 360px;
+	left: 56%;
+}
+.wrapper .a img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+.wrapper h4{
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 18px;
+	top: 70px;
+	left: 1px;
+}
+.wrapper span{
+	color: cyan;
+	font-size: 20px;
+}
+.wrapper .b{
+	position: absolute;
+	width: 25%;
+	top: 360px;
+	left: 80%;
+}
+.wrapper .b img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+
+
+
+
+
+#testimonials .wrap{
+	position: relative;
+	height: 400px;
+	width: 100%;
+
+}
+.wrap img{
+	position: absolute;
+	height: 400px;
+	width: 100%;
+	opacity: 0.3;
+}
+.wrap h2{
+	position: absolute;
+	top: 30px;
+	left: 40%;
+	color: black;
+	font-size: 32px;
+	font-family: sans-serif;
+}
+.line4{
+	position: absolute;
+	top: 80px;
+	left: 40%;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+.wrap p{
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 120px;
+	line-height: 1.5rem;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.wrap small{
+	padding-left: 40%;
+	line-height: 3rem;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+
+
+#blog .mian{
+	position: relative;
+	height: 820px;
+	width: 100%;
+}
+.mian h2{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	color: black;
+	font-size: 32px;
+	font-family: sans-serif;
+}
+.line5{
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+.img1 img{
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	height: 250px;
+	width: 42%;
+	cursor: pointer;
+}
+.img1 h3{
+	position: absolute;
+	top: 360px;
+	left: 50px;
+	border: 1px solid grey;
+	background: grey;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img1 p{
+	position: absolute;
+	top: 400px;
+	left: 50px;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img2 img{
+	position: absolute;
+	top: 100px;
+	left: 420px;
+	height: 250px;
+	width: 42%;
+	cursor: pointer;
+}
+.img2 h3{
+	position: absolute;
+	top: 360px;
+	left: 420px;
+	border: 1px solid grey;
+	background: grey;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img2 p{
+	position: absolute;
+	top: 400px;
+	left: 420px;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img3 img{
+	position: absolute;
+	top: 450px;
+	left: 250px;
+	height: 250px;
+	width: 43%;
+	cursor: pointer;
+}
+.img3 h3{
+	position: absolute;
+	top: 710px;
+	left: 250px;
+	border: 1px solid grey;
+	background: grey;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img3 p{
+	position: absolute;
+	top: 750px;
+	left: 250px;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#blog .inner{
+	position: relative;
+	height: 120px;
+	width: 100%;
+	background: darkgreen;
+}
+.inner h2{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+button{
+	position: absolute;
+	font-size: 18px;
+	background: black;
+	color: white;
+	border-radius: 30px;
+	padding: 10px 20px;
+	margin: 1rem;
+	margin-left: 500px;
+	margin-top: 40px;
+	z-index: 1;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+}
+button:hover{
+	color: #3498db;
+}
+
+
+#contact{
+	position: relative;
+	height: 570px;
+	width: 100%;
+}
+.name h2{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	color: black;
+	font-size: 32px;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+.line6{
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	height: 3px;
+	width: 40px;
+	background: green;
+}
+.location{
+	position: absolute;
+	height: 150px;
+	width: 30%;
+	top: 100px;
+	left: 50px;
+}
+.location img{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+}
+.location h3{
+	position: absolute;
+	left: 70px;
+	top: 20px;
+	font-size: 28px;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.location h3 span{
+	color: cyan;
+}
+.location p{
+	position: absolute;
+	left: 20px;
+	top: 80px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: normal;
+	opacity: 0.7;
+}
+
+.contact{
+	position: absolute;
+	height: 150px;
+	width: 30%;
+	top: 100px;
+	left:38%;
+}
+.contact img{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+}
+.contact h3{
+	position: absolute;
+	left:70px;
+	top: 20px;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.contact h3 span{
+	color: cyan;
+}
+.contact p{
+	position: absolute;
+	left: 50px;
+	top: 80px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: normal;
+	opacity: 0.7;
+}
+
+
+.email{
+	position: absolute;
+	height: 150px;
+	width: 30%;
+	top: 100px;
+	left:70%;
+}
+.email img{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+}
+.email h3{
+	position: absolute;
+	left: 80px;
+	top: 20px;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.email h3 span{
+	color: cyan;
+}
+.email p{
+	position: absolute;
+	left: 7px;
+	top: 80px;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: normal;
+	opacity: 0.7;
+}
+
+h4{
+	position: absolute;
+	left: 50px;
+	top: 300px;
+	font-size: 28px;
+	font-family: sans-serif;
+	font-weight: normal;
+	opacity: 0.7;
+}
+h4 span{
+	color: cyan;
+}
+
+.name form{
+	position: absolute;
+	top: 350px;
+	left: 50px;
+}
+.name input[type="Name"]{
+	position: absolute;
+	padding: 4px;
+	height: 40px;
+	width: 300px;
+}
+.name input[type="Email"]{
+	position: absolute;
+	top: 0px;
+	left: 350px;
+	padding: 4px;
+	height: 40px;
+	width: 300px;
+}
+.name input[type="Phone Number"]{
+	position: absolute;
+	top: 60px;
+	padding: 4px;
+	height: 40px;
+	width: 300px;
+}
+.name textarea[type="comment"]{
+	position: absolute;
+	top: 60px;
+	left: 350px;
+	padding: 4px;
+	height: 110px;
+	width: 300px;
+}
+.button_1{
+	height: 50px;
+	width: 100px;
+	top: 80px;
+	left: -400px;
+	border-radius: 0;
+	background: orange;
+	color: white;
+}
+
+
+.footer{
+	position: relative;
+	height: 80px;
+	width: 100%;
+	background: black;
+}
+.footer .tooltip1{
+	position: absolute;
+	text-decoration: none;
+	left: 25%;
+	top:25px;
+}
+.tooltip2{
+	position: absolute;
+	text-decoration: none;
+	left: 35%;
+	top:25px;
+}
+.tooltip3{
+	position: absolute;
+	text-decoration: none;
+	left: 45%;
+	top:25px;
+}
+.tooltip4{
+	position: absolute;
+	text-decoration: none;
+	left: 55%;
+	top:25px;
+}
+.tooltip5{
+	position: absolute;
+	text-decoration: none;
+	left: 65%;
+	top:25px;
+}
+.tip{
+	display: block;
+	white-space: nowrap;
+	position: absolute;
+	z-index: 1;
+	left: 15%;
+	bottom: -200%;
+	padding: 1em;
+	margin-left: 0;
+	margin-top: 0.5rem;
+	font-size: 0.6em;
+	font-weight: normal;
+	background: #34495e;
+	border-radius: 1em;
+	color: #fff;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.35s;
+}
+.tip::before{
+	content: '';
+	border-style: solid;
+	border-width: 0 0.5rem 0.625rem 0.5rem;
+	border-color: transparent transparent #34495e transparent;
+	position: absolute;
+	right: 77%;
+	top: -8px;
+	bottom: calc(50%-0.5rem);
+	width: 0;
+	height: 0;
+}
+.tooltip1:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+.tooltip2:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+.tooltip3:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+.tooltip4:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	color: white;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+.tooltip5:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}	
+}
+
+
+
+
+											@media(max-width: 300px){
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+.main{
+	position: relative;
+	height: 1200px;
+	width: 100%;
+	background-color: cyan;
+	overflow: hidden;
+}
+.main .header{
+	position: fixed;
+	height: 140px;
+	width: 100%;
+	z-index: 5;
+	background-color: cyan;
+	border-bottom: 1px solid black;
+}
+.main .header img{
+	top: 18px;
+	height: 40px;
+	width: 40px;
+	left: 10px;
+}
+.main .header h1{
+	position: absolute;
+	top: 17px;
+	left: 60px;
+	color: black;
+	font-size: 42px;
+}
+.main ul{
+	list-style: none;
+	position: absolute;
+	right: 0px;
+	color: black;
+	top: 70px;
+	cursor: pointer;
+}
+.main ul li{
+	float: left;
+	padding:0px 10px;
+	color: black;
+	font-family: sans-serif;
+}
+.main ul li:hover{
+	color: white;
+	font-size: 16px;
+}
+.main a{
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+.main a:hover{
+	color: white;
+}
+.main img{
+	position: absolute;
+	height: 350px;
+	width: 280px;
+	top: 140px;
+	left: 10px;
+}
+.main h1{
+	position: absolute;
+	top: 500px;
+	left: 25px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.main span{
+	font-size: 38px;
+	font-weight: bold;
+}
+.main .line{
+	position: absolute;
+	background-color: white;
+	height: 2px;
+	width: 90px;
+	top: 545px;
+	left: 25px;
+}
+.main p{
+	position: absolute;
+	top: 600px;
+	left: 25px;
+	color: black;
+	line-height: 1.5rem;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+}
+.main button{
+	position: absolute;
+	font-size: 18px;
+	background: black;
+	color: white;
+	border-radius: 30px;
+	padding: 10px 20px;
+	margin: 1rem;
+	margin-left: 70px;
+	margin-top: 820px;
+	z-index: 1;
+	overflow: hidden;
+	outline: none;
+	cursor: pointer;
+}
+.main button:hover{
+	color: #3498db;
+}
+.main .one{
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	background: darkgreen;
+	top: 900px;
+}
+.main .two{
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	background: green;
+	top: 1000px;
+	left: 0px;
+}
+.main .three{
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	background:lightgreen;
+	top: 1100px;
+	left: 0;
+}
+.main .one img{
+	position: absolute;
+	top: 10px;
+	left: 110px;
+	height: 40px;
+	width: 40px;
+}
+.main .two img{
+	position: absolute;
+	top: 10px;
+	left: 110px;
+	height: 40px;
+	width: 40px;
+}
+.main .three img{
+	position: absolute;
+	top: 10px;
+	left: 110px;
+	height: 40px;
+	width: 40px;
+}
+.main .one h3{
+	position: absolute;
+	font-size: 18px;
+	top: 60px;
+	left: 10px;
+	color: white;
+	font-family: sans-serif;
+}
+.main .one h3 span{
+	font-size: 24px;
+	font-weight: bold;
+}
+.main .two h3{
+	position: absolute;
+	font-size: 18px;
+	top: 60px;
+	left: 10px;
+	color: white;
+	font-family: sans-serif;
+}
+.main .two h3 span{
+	font-size: 22px;
+	font-weight: bold;
+}
+.main .three h3{
+	position: absolute;
+	font-size: 18px;
+	top: 60px;
+	left: 30px;
+	color: white;
+	font-family: sans-serif;
+}
+.main .three h3 span{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+
+
+#about{
+	position: relative;
+	height: 1000px;
+	width: 100%;
+	background: white;
+	border-bottom: 0.5px solid black;
+}
+#about h1{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.line1{
+	position: absolute;
+	top: 65px;
+	left: 25px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+#about p{
+	position: absolute;
+	top: 80px;
+	left: 25px;
+	color: black;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+#about h2{
+	position: absolute;
+	top: 280px;
+	left: 25px;
+	color: black;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+#about .one{
+	position: absolute;
+	width: 80%;
+	top: 320px;
+	height: 100px;
+	left: 25px;
+}
+#about .one img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 25%;
+	padding: 5px;
+}
+#about h4{
+	position: absolute;
+	top: 65px;
+	left: 0px;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+#about h4 span{
+	color: cyan;
+	font-size: 20px;
+}
+#about .two{
+	position: absolute;
+	width: 80%;
+	height: 100px;
+	top: 430px;
+	left: 25px;
+}
+#about .two img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about .three{
+	position: absolute;
+	width: 80%;
+	height: 100px;
+	top: 540px;
+	left: 25px;
+}
+#about .three img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about .four{
+	position: absolute;
+	width: 80%;
+	height: 100px;
+	top: 650px;
+	left: 25px;
+}
+#about .four img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about .five{
+	position: absolute;
+	width: 80%;
+	height: 100px;
+	top: 760px;
+	left: 25px;
+}
+#about .five img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+#about .six{
+	position: absolute;
+	width: 80%;
+	height: 100px;
+	top: 880px;
+	left: 25px;
+}
+#about .six img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+
+
+
+
+
+#services .container{
+	position: relative;
+	height: 900px;
+	width: 100%;
+	background: white;
+	border-bottom: 0.1px solid black;
+}
+.container h1{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.line2{
+	position: absolute;
+	top: 65px;
+	left: 25px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+#one{
+	position: absolute;
+	height: 150px;
+	width: 80%;
+	top: 120px;
+	left: 25px;
+}
+.container h3{
+	color: cyan;
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	top: 70px;
+}
+.container p{
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	top: 100px;
+}
+#two{
+	position: absolute;
+	height: 150px;
+	width: 80%;
+	top: 300px;
+	left: 25px;
+}
+#three{
+	position: absolute;
+	height: 150px;
+	width: 80%;
+	top: 480px;
+	left: 25px;
+}
+#four{
+	position: absolute;
+	height: 150px;
+	width: 80%;
+	top: 680px;
+	left: 25px;
+}
+
+
+
+
+#portfolio .wrapper{
+	position: relative;
+	height: 950px;
+	width: 100%;
+	background: white;
+	border-bottom: 0.1px solid black;
+}
+.wrapper h2{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.line3{
+	position: absolute;
+	top: 65px;
+	left: 25px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+.wrapper .img{
+	position: absolute;
+	height: 300px;
+	width: 80%;
+	top: 100px;
+	left: 25px;
+}
+.wrapper p{
+	position: absolute;
+	left: 25px;
+	top: 420px;
+	right: 25px;
+	line-height: 1.5rem;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.wrapper h3{
+	position: absolute;
+	top: 700px;
+	left: 25px;
+	font-size: 19px;
+	font-family: sans-serif;
+}
+.wrapper .a{
+	position: absolute;
+	width: 25%;
+	top: 750px;
+	left: 25px;
+}
+.wrapper .a img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+.wrapper h4{
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 18px;
+	top: 70px;
+	left: 1px;
+}
+.wrapper span{
+	color: cyan;
+	font-size: 20px;
+}
+.wrapper .b{
+	position: absolute;
+	width: 25%;
+	top: 750px;
+	left: 150px;
+}
+.wrapper .b img{
+	border: 1px solid cyan;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+
+
+
+
+
+#testimonials .wrap{
+	position: relative;
+	height: 400px;
+	width: 100%;
+}
+.wrap img{
+	position: absolute;
+	height: 400px;
+	width: 100%;
+	opacity: 0.3;
+}
+.wrap h2{
+	position: absolute;
+	top: 30px;
+	left: 15%;
+	color: black;
+	font-size: 32px;
+	font-family: sans-serif;
+}
+.line4{
+	position: absolute;
+	top: 80px;
+	left: 20%;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+.wrap p{
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 100px;
+	line-height: 1.5rem;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.wrap small{
+	padding-left: 35%;
+	line-height: 3rem;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+
+
+#blog .mian{
+	position: relative;
+	height: 1300px;
+	width: 100%;
+}
+.mian h2{
+	position: absolute;
+	top: 30px;
+	left: 25px;
+	color: black;
+	font-size: 32px;
+	font-family: sans-serif;
+}
+.line5{
+	position: absolute;
+	top: 70px;
+	left: 25px;
+	height: 3px;
+	width: 50px;
+	background: green;
+}
+.img1 img{
+	position: absolute;
+	top: 100px;
+	left: 25px;
+	height: 250px;
+	width: 80%;
+	cursor: pointer;
+}
+.img1 h3{
+	position: absolute;
+	top: 360px;
+	left: 25px;
+	border: 1px solid grey;
+	background: grey;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img1 p{
+	position: absolute;
+	top: 400px;
+	left: 25px;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img2 img{
+	position: absolute;
+	top: 500px;
+	left: 25px;
+	height: 250px;
+	width: 80%;
+	cursor: pointer;
+}
+.img2 h3{
+	position: absolute;
+	top: 760px;
+	left: 25px;
+	border: 1px solid grey;
+	background: grey;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img2 p{
+	position: absolute;
+	top: 800px;
+	left: 25px;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img3 img{
+	position: absolute;
+	top: 900px;
+	left: 25px;
+	height: 250px;
+	width: 80%;
+	cursor: pointer;
+}
+.img3 h3{
+	position: absolute;
+	top: 1160px;
+	left: 25px;
+	border: 1px solid grey;
+	background: grey;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+.img3 p{
+	position: absolute;
+	top: 1200px;
+	left: 25px;
+	font-family: sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+
+
+
+
+#blog .inner{
+	position: relative;
+	height: 180px;
+	width: 100%;
+	background: darkgreen;
+}
+.inner h2{
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+button{
+	position: absolute;
+	font-size: 18px;
+	background: black;
+	color: white;
+	border-radius: 30px;
+	padding: 10px 20px;
+	margin: 1rem;
+	margin-left: 30px;
+	margin-top: 100px;
+	z-index: 1;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+}
+button:hover{
+	color: #3498db;
+}
+
+
+#contact{
+	position: relative;
+	height: 1070px;
+	width: 100%;
+}
+.name h2{
+	position: absolute;
+	top: 30px;
+	left: 25px;
+	color: black;
+	font-size: 32px;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+.line6{
+	position: absolute;
+	top: 70px;
+	left: 25px;
+	height: 3px;
+	width: 40px;
+	background: green;
+}
+.location{
+	position: absolute;
+	height: 150px;
+	width: 75%;
+	top: 100px;
+	left: 25px;
+	border-bottom: 1px solid cyan;
+	border-left: 1px solid cyan;
+}
+.location img{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+}
+.location h3{
+	position: absolute;
+	left: 70px;
+	top: 20px;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.location h3 span{
+	color: cyan;
+}
+.location p{
+	position: absolute;
+	left: 20px;
+	top: 80px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: normal;
+	opacity: 0.7;
+}
+
+.contact{
+	position: absolute;
+	height: 150px;
+	width: 75%;
+	top: 260px;
+	left:25px;
+	border-bottom: 1px solid cyan;
+	border-left: 1px solid cyan;
+}
+.contact img{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+}
+.contact h3{
+	position: absolute;
+	left:70px;
+	top: 20px;
+	font-size: 22px;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.contact h3 span{
+	color: cyan;
+}
+.contact p{
+	position: absolute;
+	left: 50px;
+	top: 80px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: normal;
+	opacity: 0.7;
+}
+
+
+.email{
+	position: absolute;
+	height: 150px;
+	width: 75%;
+	top: 430px;
+	left:25px;
+	border-bottom: 1px solid cyan;
+	border-left: 1px solid cyan;
+}
+.email img{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+}
+.email h3{
+	position: absolute;
+	left: 80px;
+	top: 20px;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.email h3 span{
+	color: cyan;
+}
+.email p{
+	position: absolute;
+	left: 7px;
+	top: 80px;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: normal;
+	opacity: 0.7;
+}
+
+h4{
+	position: absolute;
+	left: 25px;
+	top: 600px;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: normal;
+	opacity: 0.7;
+}
+h4 span{
+	color: cyan;
+}
+
+.name form{
+	position: absolute;
+	top: 650px;
+	left: 25px;
+}
+.name input[type="Name"]{
+	position: absolute;
+	padding: 4px;
+	height: 40px;
+	width: 200px;
+}
+.name input[type="Email"]{
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	padding: 4px;
+	height: 40px;
+	width: 200px;
+}
+.name input[type="Phone Number"]{
+	position: absolute;
+	top: 120px;
+	padding: 4px;
+	height: 40px;
+	width: 200px;
+}
+.name textarea[type="comment"]{
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	padding: 4px;
+	height: 110px;
+	width: 200px;
+}
+.button_1{
+	position: absolute;
+	height: 50px;
+	width: 100px;
+	top: 220px;
+	left: -10px;
+	border-radius: 0;
+	background: orange;
+	color: white;
+}
+
+
+.footer{
+	position: relative;
+	height: 80px;
+	width: 100%;
+	background: black;
+}
+.footer .tooltip1{
+	position: absolute;
+	text-decoration: none;
+	left: 25%;
+	top:25px;
+}
+.tooltip2{
+	position: absolute;
+	text-decoration: none;
+	left: 35%;
+	top:25px;
+}
+.tooltip3{
+	position: absolute;
+	text-decoration: none;
+	left: 45%;
+	top:25px;
+}
+.tooltip4{
+	position: absolute;
+	text-decoration: none;
+	left: 55%;
+	top:25px;
+}
+.tooltip5{
+	position: absolute;
+	text-decoration: none;
+	left: 65%;
+	top:25px;
+}
+.tip{
+	display: block;
+	white-space: nowrap;
+	position: absolute;
+	z-index: 1;
+	left: 15%;
+	bottom: -200%;
+	padding: 1em;
+	margin-left: 0;
+	margin-top: 0.5rem;
+	font-size: 0.6em;
+	font-weight: normal;
+	background: #34495e;
+	border-radius: 1em;
+	color: #fff;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.35s;
+}
+.tip::before{
+	content: '';
+	border-style: solid;
+	border-width: 0 0.5rem 0.625rem 0.5rem;
+	border-color: transparent transparent #34495e transparent;
+	position: absolute;
+	right: 77%;
+	top: -8px;
+	bottom: calc(50%-0.5rem);
+	width: 0;
+	height: 0;
+}
+.tooltip1:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+.tooltip2:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+.tooltip3:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+.tooltip4:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	color: white;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}
+.tooltip5:hover .tip{
+	opacity: 1;
+	bottom: -25px;
+	visibility: visible;
+	margin-left: -0.5rem;
+	transition: all 0.35;
+}	
+}
